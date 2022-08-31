@@ -69,108 +69,37 @@
 
 ## [Built With]
  [for 👉🏼(e.g.)]
-* [google_fonts] [for 👉🏼GoogleFonts.jetBrainsMono(color: Colors.white,fontSize: 18),)]
-* [cached_network_image] [for 👉🏼CachedNetworkImage(imageUrl: widget.cartStateController.getCart()[index].image,fit: BoxFit.fill,errorWidget: (context, url, err) => Center(child: Icon(Icons.image),),]
-* [firebase_core] [for 👉🏼(FirebaseApp app = await Firebase.initializeApp();)]
-* [firebase_database] [for 👉🏼(var source = await FirebaseDatabase.instance.ref().child('Restaurant').child('restauranta').child(BEST_DEAL_REF).orderByKey().once();)]
-* [get] [for 👉🏼( final cartStateController = Get.put(CartStateController()); | return GetMaterialApp( ... ))]
-* [auto_animated] [for 👉🏼[LiveList( ... ]]
-* [carousel_slider] [for 👉🏼( return CarouselSlider(items: lstBestDeal.map((e) => Builder(builder: (BuildContext context) { )]
-* [flutter_zoom_drawer] [for 👉🏼( style: DrawerStyle.defaultStyle,///styles )]
-* [flutter_elegant_number_button] [for 👉🏼( Center(child: ElegantNumberButton(initialValue: widget.cartStateController.getCart()[index].quantity, )]
-* [flutter_rating_bar] [for 👉🏼(  RatingBar.builder(initialRating: 5, minRating: 1, direction: Axis.horizontal, allowHalfRating: false, )]
-* [badges] [for 👉🏼(Badge( ... ) |  position: BadgePosition(top: -1,end: -2), |  animationType: BadgeAnimationType.scale, )]
-* [get_storage] [for 👉🏼(  await GetStorage.init(); //for cart_state (to read cart-list-data in the box) |final box = GetStorage(); )]
+* [google_fonts]
+* [cached_network_image]
+* [firebase_core]
+* [firebase_database]
+* [get]
+* [auto_animated]
+* [carousel_slider]
+* [flutter_zoom_drawer]
+* [flutter_elegant_number_button]
+* [flutter_rating_bar]
+* [badges]
+* [get_storage]
+* [intl]
+* [flutter_slidable]
+* [firebase_auth]
+* [flutter_auth_ui]
 
 
-* [intl] [for 👉🏼(NumberFormat numberFormat = NumberFormat("#,##0", "en_US"); //thousand separators [1000000 => 1000,000] )]
-* [flutter_slidable] [for 👉🏼( child:SlidableAutoCloseBehavior( //to close(the previous one) when another [Slidable] widget with the same [groupTag] opens. |  ,itemBuilder: (context,index)=> Slidable()]
+* [//firedart]
+* [//http] 
 
+* [form_validator]
 
-* [firebase_auth] [for 👉🏼( if(FirebaseAuth.instance.currentUser != null) { )]
-* [flutter_auth_ui] [for 👉🏼( FlutterAuthUi.startUi( items: [ AuthUiProvider.phone, )]
+* [geolocator]
+* [geocoding]
+* [fluttertoast]
+* [location]
+* [map_pin_picker]
+* [google_maps_flutter]
+* [msix]
 
-
-* [//firedart] [for 👉🏼(for desktop app )]
-* [//http] [for 👉🏼(for desktop app )]
-
-* [form_validator] [for 👉🏼(TextFormField( controller: widget.NameController, validator: ValidationBuilder(requiredMessage: '$NameText $isRequiredText',).required().build(), )]
-
-* ### [place_order_screen]
-  #### 1.get user current location(lat & lang)
-  * [geolocator] [for 👉🏼(await Geolocator.isLocationServiceEnabled(); | LocationPermission permission; | Future<Position> _determinePosition() async {)]
-  #### 2.and this get the address of user (name of address)
-  * [geocoding] [for 👉🏼( List<geocoding.Location> locationFromAddress = []; |  List<geocoding.Placemark> placeMark = await geocoding.placemarkFromCoordinates(position.latitude, position.longitude); |  geocoding.Placemark place = placeMark[1]; )]
-
-  #### 3.(flutter-toast) for permission if its deniedForever => openAppSettings
-  * [fluttertoast] [for 👉🏼(Fluttertoast.showToast(msg: deniedForeverMessageTitle, )]
-
-  #### 4.Test if location services are enabled.
-  * [location] [for 👉🏼(locator.Location location = new locator.Location();)]
-
-  #### 5.select location from maps
-  * [map_pin_picker] [for 👉🏼(MapPickerController mapPickerController = new MapPickerController(); |  MapPicker( showDot: true, showDotcolor: )]
-
-  #### 6.(CameraPosition(target: LatLng(0, 0)) and (cameraPosition.target.latitude... so on) //ANDROID IOS
-  * [google_maps_flutter] [for 👉🏼( GoogleMap( MinMaxZoomPreference(6,20), GoogleMapController controller) ... ) | Completer<GoogleMapController> _controller = Completer(); |   MapType _defaultMapType = MapType.normal; |  _mapController.animateCamera(CameraUpdate.newCameraPosition(CameraPosition(target: LatLng(lat, long), zoom: 19,),),); )]
----
-
-* [msix] [for 👉🏼(to create .msiX (setup file of app))]
-
-
-
-* ## [installation]
-```
-0.check [environment-variables]
-0.flutter doctor
-0.flutter --version 
-0.flutter --v
-
-1.flutter upgrade
-  2.additional run args --no-sound-null-safety [map_pin_picker cuz it deprecated now]
-  2.flutter run --no-sound-null-safety
-
-*.flutter clean
-
-last-thing... u must update(map_pin_picker.dart) in flutterSDK [D:\aFlutterSDK\flutter\.pub-cache\hosted\pub.dartlang.org\map_pin_picker-0.0.1\lib\map_pin_picker.dart]
-🌟🌠imp - dependency(package)🌠🌟 => u will find updated(map_pin_picker.dart)
-```
-
-
-* ## 1.git Commands [// means once]
-```
-//git init
-//git add README.md
-  git add *
-  [
-  fatal: unsafe repository ('D:/Apps/lowmium' is owned by someone else) To add an exception for this directory, call:
-
-        git config --global --add safe.directory D:/Apps/lowmium
-
-  ]
-  git commit -m "publish project"
-//git branch -m main
-//git remote add origin https://github.com/Abanoub5015/LowMium.github.io
-  git push origin main
-git pull origin main
-```
-
-* ## 2.git (deploy-page) Commands
-```
-[1] flutter build web => then [drag & drop this web-folder to github(in gh-page)]
-```
-
-
-* ## 3.after every update:
-```
------------------------------
-git add *
-git commit -m "update commit"
-git push origin main
-
-flutter build web => then [drag & drop this web-folder to github(in gh-page)]
------------------------------
-```
 
 
 [google_fonts]: https://pub.dev/packages/google_fonts
