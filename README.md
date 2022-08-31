@@ -68,7 +68,7 @@
 
 
 ## [Built With]
- [for 👉🏼(e.g.)]
+
 * [google_fonts]
 * [cached_network_image]
 * [firebase_core]
