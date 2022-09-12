@@ -14,7 +14,7 @@
 | [![]()]() | [![]()]() |
 |:---:|:---:|
 | [0]*Home*   | [1]*Menu* |
-| [![screenShot_LowMium](https://i.ibb.co/6yxvfMX/image.png)](https://lowmium.ml/) |[![screenShot_LowMium](https://i.ibb.co/MpshPmh/image.png)](https://lowmium.ml/)
+| [![screenShot_LowMium](https://i.ibb.co/6yxvfMX/image.png)](https://lowmium.ml/) |[![screenShot_LowMium](https://i.ibb.co/0tdkvHj/image.png)](https://lowmium.ml/)
 | *2.Cart [2.1.Place Order Screen]*  | *2.2.GoogleMap (Map Pick-location)* |
 | [![screenShot_LowMium](https://i.ibb.co/02NwcWz/image.png)](https://lowmium.ml/) |[![screenShot_LowMium](https://i.ibb.co/k01KPxN/image.png)](https://lowmium.ml/)
 
