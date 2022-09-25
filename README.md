@@ -14,9 +14,9 @@
 | [![]()]() | [![]()]() |
 |:---:|:---:|
 | [0]*Home*   | [1]*Menu* |
-| [![screenShot_LowMium](https://i.ibb.co/6yxvfMX/image.png)](https://lowmium.ml/) |[![screenShot_LowMium](https://i.ibb.co/0tdkvHj/image.png)](https://lowmium.ml/)
+| [![screenShot_LowMium](https://user-images.githubusercontent.com/82307701/192166628-54a36eab-db5e-4483-a474-8d249b461b01.png)](https://lowmium.ml/) |[![screenShot_LowMium](https://user-images.githubusercontent.com/82307701/192166646-938e2187-2e76-44ee-8da3-6a03570c2225.png)](https://lowmium.ml/)
 | *2.Cart [2.1.Place Order Screen]*  | *2.2.GoogleMap (Map Pick-location)* |
-| [![screenShot_LowMium](https://i.ibb.co/02NwcWz/image.png)](https://lowmium.ml/) |[![screenShot_LowMium](https://i.ibb.co/k01KPxN/image.png)](https://lowmium.ml/)
+| [![screenShot_LowMium](https://user-images.githubusercontent.com/82307701/192166673-ca875268-406d-4606-b7b3-0bdecfa71e97.png)](https://lowmium.ml/) |[![screenShot_LowMium](https://user-images.githubusercontent.com/82307701/192166674-54cd6051-b599-484d-b3fb-f8371c251c19.png)](https://lowmium.ml/)
 
 
 
